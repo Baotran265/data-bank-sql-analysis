@@ -100,5 +100,5 @@ Dashboard 3 trang được dựng trong Excel, tái hiện trực quan chuỗi p
 - **Compounding paradox:** lãi kép cho **ít data hơn** lãi đơn — net-spenders "ăn" mất phần lãi nhập gốc mỗi khi rút tiền, khoảng cách widening dần (91 → 884 units/tháng).
 - **Khuyến nghị:** Zero-Floor bắt buộc + chọn **Option 3** để khớp cam kết thương hiệu "real-time data platform" của Data Bank.
 
-#   d a t a - b a n k - s q l - a n a l y s i s  
+ 
  
