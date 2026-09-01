@@ -1,0 +1,3 @@
+"check_type,count,conclusion"
+"distinct_node_id_only,5,Node IDs (1-5) repeat across all regions. Not unique globally."
+"distinct_region_node_pairs,25,True unique nodes in system (5 regions * 5 nodes)."

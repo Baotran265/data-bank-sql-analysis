@@ -1,0 +1,4 @@
+"check_type,count,decision,rationale"
+"txn_customers_without_node,0,No action needed,All customers with transactions have a valid node allocation."
+"node_customers_without_txn,0,No action needed,All customers with node allocation have at least one transaction."
+"nodes_with_invalid_region,0,No action needed,All region_id values in customer_nodes match a valid region in the regions table."

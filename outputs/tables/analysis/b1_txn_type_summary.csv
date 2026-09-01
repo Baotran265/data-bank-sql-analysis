@@ -1,0 +1,4 @@
+"txn_type","txn_count","unique_customer_count","total_amount"
+"deposit",2671,500,1359168
+"purchase",1617,448,806537
+"withdrawal",1580,439,793003

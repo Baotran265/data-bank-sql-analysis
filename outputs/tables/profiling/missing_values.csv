@@ -1,0 +1,9 @@
+regions:,,,,,,
+table_name,total_rows,null_region_id,null_or_empty_region_name,,,
+regions,5,0,0,,,
+customer_nodes:,,,,,,
+table_name,total_rows,null_customer_id,null_region_id,null_node_id,null_start_date,null_end_date
+customer_nodes,3500,0,0,0,0,0
+customer_transactions:,,,,,,
+table_name,total_rows,null_customer_id,null_txn_date,null_or_empty_txn_type,null_txn_amount,
+customer_transactions,5868,0,0,0,0,

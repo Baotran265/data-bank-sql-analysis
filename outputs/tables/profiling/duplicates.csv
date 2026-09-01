@@ -1,0 +1,4 @@
+"check_type,table_name,duplicate_count,status,decision"
+"exact_duplicate,customer_nodes,0,Pass,Keep"
+"exact_duplicate,customer_transactions,0,Pass,Keep"
+"logical_duplicate_same_start_date,customer_nodes,0,Pass,Keep"

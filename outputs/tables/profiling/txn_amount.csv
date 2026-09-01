@@ -1,0 +1,4 @@
+txn_type,txn_count,unique_customer_count,min_amount,avg_amount,max_amount,total_amount,median_amount,p95_amount,p99_amount
+deposit,2671,500,0,508.86,1000,1359168,514,947.5,990
+purchase,1617,448,1,498.79,999,806537,492,958.2,990
+withdrawal,1580,439,1,501.9,999,793003,501,948,989

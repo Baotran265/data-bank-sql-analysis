@@ -1,0 +1,6 @@
+"region_name","p50_median","p80","p95","closed_allocations"
+"Africa",15.0,24.0,28.0,612
+"America",15.0,23.0,28.0,630
+"Asia",15.0,23.0,28.0,570
+"Australia",15.0,23.0,28.0,660
+"Europe",15.0,24.0,28.0,528

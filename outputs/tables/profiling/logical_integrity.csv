@@ -1,0 +1,4 @@
+"check,description,expected,actual,status"
+"invalid_date_range,end_date < start_date,0,0,Pass"
+"active_node_count,end_date = 9999-12-31,500,500,Pass"
+"multiple_active_nodes,COUNT(*) > 1 per customer,0,0,Pass"

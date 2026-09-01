@@ -1,0 +1,5 @@
+txn_type,txn_count,Is_Valid
+deposit,2671,Yes
+purchase,1617,Yes
+withdrawal,1580,Yes
+"invalid_txn_type_count,0,N/A",,
