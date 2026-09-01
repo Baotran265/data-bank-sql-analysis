@@ -53,7 +53,7 @@ Câu hỏi nghiệp vụ cốt lõi: **Ngân hàng cần dự trù (provision) b
 
 ## 📂 Cấu Trúc Dự Án
 ```text
-data-bank-portfolio/
+data-bank-sql-analysis/
 ├── data/
 │   └── raw/                 # Dữ liệu nguồn (DataBase.sql)
 ├── sql/                     
@@ -99,6 +99,3 @@ Dashboard 3 trang được dựng trong Excel, tái hiện trực quan chuỗi p
 - **Option 3 (Real-time)** luôn đắt nhất (314k–410k units) — cái giá của cam kết real-time; **Option 1/2** rẻ hơn (~260k) nhưng mang "độ trễ" trải nghiệm và **gãy hoàn toàn** khi dân số âm tiền phình to (raw rơi xuống −184k ở April).
 - **Compounding paradox:** lãi kép cho **ít data hơn** lãi đơn — net-spenders "ăn" mất phần lãi nhập gốc mỗi khi rút tiền, khoảng cách widening dần (91 → 884 units/tháng).
 - **Khuyến nghị:** Zero-Floor bắt buộc + chọn **Option 3** để khớp cam kết thương hiệu "real-time data platform" của Data Bank.
-
- 
- 
