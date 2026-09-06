@@ -99,3 +99,12 @@ Dashboard 3 trang được dựng trong Excel, tái hiện trực quan chuỗi p
 - **Option 3 (Real-time)** luôn đắt nhất (314k–410k units) — cái giá của cam kết real-time; **Option 1/2** rẻ hơn (~260k) nhưng mang "độ trễ" trải nghiệm và **gãy hoàn toàn** khi dân số âm tiền phình to (raw rơi xuống −184k ở April).
 - **Compounding paradox:** lãi kép cho **ít data hơn** lãi đơn — net-spenders "ăn" mất phần lãi nhập gốc mỗi khi rút tiền, khoảng cách widening dần (91 → 884 units/tháng).
 - **Khuyến nghị:** Zero-Floor bắt buộc + chọn **Option 3** để khớp cam kết thương hiệu "real-time data platform" của Data Bank.
+
+### Sheet 4 — EXPLORE (Ad-hoc Analysis Layer)
+![Explore](dashboard/screenshots/page4_explore.png)
+- **Power Query** import `c1_running_balance.csv` (5,868 dòng) + tạo cột `month`, `signed_amount`, `balance_status`.
+- **PivotTable + PivotChart + Slicer** (`txn_type`, `balance_status`): dòng tiền theo tháng × loại giao dịch; Grand Total khớp **−240,372** của SQL.
+- **Control panel** (Data Validation) chọn tháng/loại giao dịch → KPI cập nhật bằng **SUMIFS/COUNTIFS/XLOOKUP**; **IF** tạo nhãn "Net inflow/outflow", "Healthy/Overdraft zone"; **Conditional Formatting** tô đỏ/xanh + heatmap Pivot.
+- Ghi chú định nghĩa: `balance_status = Negative` nghĩa là **âm tại từng giao dịch**, không phải âm cuối tháng.
+
+> **Cách đọc workbook:** 3 sheet đầu = "báo cáo" cho người xem (show kết quả); sheet EXPLORE = "bàn làm việc" cho analyst (show tay nghề + cross-check SQL bằng Excel).
