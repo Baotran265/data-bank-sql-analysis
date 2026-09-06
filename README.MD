@@ -106,5 +106,3 @@ Dashboard 3 trang được dựng trong Excel, tái hiện trực quan chuỗi p
 - **PivotTable + PivotChart + Slicer** (`txn_type`, `balance_status`): dòng tiền theo tháng × loại giao dịch; Grand Total khớp **−240,372** của SQL.
 - **Control panel** (Data Validation) chọn tháng/loại giao dịch → KPI cập nhật bằng **SUMIFS/COUNTIFS/XLOOKUP**; **IF** tạo nhãn "Net inflow/outflow", "Healthy/Overdraft zone"; **Conditional Formatting** tô đỏ/xanh + heatmap Pivot.
 - Ghi chú định nghĩa: `balance_status = Negative` nghĩa là **âm tại từng giao dịch**, không phải âm cuối tháng.
-
-> **Cách đọc workbook:** 3 sheet đầu = "báo cáo" cho người xem (show kết quả); sheet EXPLORE = "bàn làm việc" cho analyst (show tay nghề + cross-check SQL bằng Excel).
